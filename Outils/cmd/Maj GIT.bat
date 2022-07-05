@@ -15,6 +15,9 @@ modif.bat
 cd..
 cd..
 
+::RMDIR /s /q Git
+
+UT3.exe
 
 
 pause
