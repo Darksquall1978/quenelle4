@@ -31,4 +31,6 @@ echo Ok, ton pseudo est %Pseudo%.
 echo Au lancement du jeu entre %Pseudo% dans Nom d'Utilisateur
 echo Et clique sur JOUER HORS LIGNE
 
-pause>nul
+timeout /t 10 /nobreak > nul
+
+::pause>nul
