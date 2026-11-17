@@ -1,0 +1,22 @@
+{
+  "Version": "1.0.0",
+  "BaseUrl": "https://raw.githubusercontent.com/monpseudo/mon-jeu/main/launcher/",
+  "Files": [
+    {
+      "Path": "MonJeu.exe",
+      "Sha256": "93E5F5CDF7932ECED8832CBD0BFE4AF68E43824E62BBCB55034048ABE780C4D4",
+      "Size": 12000
+    },
+    {
+      "Path": "data/data.pak",
+      "Sha256": "646FAB1FAA4FDAA8E0B352A3A1B22B4FE8AAC9D7A8004CF40196B58A0D423B5C",
+      "Size": 65000
+    },
+    {
+      "Path": "data/textures.pak",
+      "Sha256": "CEEF7599419DFB297448EAC72FFD1DF9BBBAF5C96C293B6D0462D80516A5C472",
+      "Size": 136000
+    }
+  ],
+  "Launcher": null
+}
