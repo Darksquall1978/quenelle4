@@ -1,22 +1,21 @@
 {
-  "Version": "1.0.0",
-  "BaseUrl": "https://raw.githubusercontent.com/monpseudo/mon-jeu/main/launcher/",
+  "Version": "2026.11.19",
+  "BaseUrl": "",
   "Files": [
     {
-      "Path": "MonJeu.exe",
-      "Sha256": "93E5F5CDF7932ECED8832CBD0BFE4AF68E43824E62BBCB55034048ABE780C4D4",
-      "Size": 12000
+      "Path": "Gaufres de foire.exe",
+      "Sha256": "9DE45D41CCB18FF38332D9EC320E4E7DABA99699A7118F6D1A357C74FD60041B",
+      "Size": 686
     },
     {
-      "Path": "data/data.pak",
-      "Sha256": "646FAB1FAA4FDAA8E0B352A3A1B22B4FE8AAC9D7A8004CF40196B58A0D423B5C",
-      "Size": 65000
-    },
-    {
-      "Path": "data/textures.pak",
-      "Sha256": "CEEF7599419DFB297448EAC72FFD1DF9BBBAF5C96C293B6D0462D80516A5C472",
-      "Size": 136000
+      "Path": "TMNF Launcher.lcproj",
+      "Sha256": "840D00F48D0EC2AA8738DF755AB4B2131D35106CA757D75AF792AFE5940B559B",
+      "Size": 3671
     }
   ],
-  "Launcher": null
+  "Launcher": {
+    "Version": "1.0.0",
+    "Url": "TMNFLauncherLauncher.exe",
+    "Sha256": "C05D8870C81CF1D805F7809387133F15C2DC0F73F64B1F119781AC3BF66386A9"
+  }
 }
