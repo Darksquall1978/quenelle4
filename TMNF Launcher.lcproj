@@ -1,0 +1,191 @@
+{
+  "Config": {
+    "GameName": "TMNF",
+    "Subtitle": "",
+    "Executable": "F:\\Jeux\\test\\Gaufres de foire.exe",
+    "Arguments": "",
+    "Website": "http://78.116.195.253:81/",
+    "News": "",
+    "ShowNews": false,
+    "WebPageUrl": "",
+    "NewsUrl": "",
+    "UpdateAsset": "",
+    "UpdateUrl": "https://github.com/Darksquall1978/quenelle4/manifest.json",
+    "Accent": "#7C5CFF",
+    "Back": "#14172B",
+    "Text": "#F2F0FF",
+    "CloseOnLaunch": true,
+    "RequireUpdate": true,
+    "MainProfileName": "Jouer",
+    "ExtraProfiles": [],
+    "LauncherVersion": "1.0.0",
+    "MusicFile": "",
+    "MusicVolume": 50,
+    "ClickSoundFile": "",
+    "ClickVolume": 80,
+    "WebNoScroll": true,
+    "WindowWidth": 820,
+    "WindowHeight": 500,
+    "ShowBand": false,
+    "BandOpacity": 255,
+    "BandBox": {
+      "X": 6,
+      "Y": 310,
+      "W": 820,
+      "H": 187
+    },
+    "TitleBox": {
+      "X": 274,
+      "Y": 15,
+      "W": 0,
+      "H": 0
+    },
+    "SubtitleBox": {
+      "X": 38,
+      "Y": 100,
+      "W": 0,
+      "H": 0
+    },
+    "NewsBox": {
+      "X": 32,
+      "Y": 324,
+      "W": 510,
+      "H": 164
+    },
+    "PlayBox": {
+      "X": 576,
+      "Y": 207,
+      "W": 220,
+      "H": 52
+    },
+    "UpdateBox": {
+      "X": 580,
+      "Y": 434,
+      "W": 220,
+      "H": 28
+    },
+    "ProfileBox": {
+      "X": 573,
+      "Y": 335,
+      "W": 220,
+      "H": 26
+    },
+    "StatusBox": {
+      "X": 572,
+      "Y": 483,
+      "W": 236,
+      "H": 28
+    },
+    "LinkBox": {
+      "X": 594,
+      "Y": 155,
+      "W": 0,
+      "H": 0
+    },
+    "WebBox": {
+      "X": 97,
+      "Y": 415,
+      "W": 21,
+      "H": 21
+    },
+    "PlayStyle": {
+      "Back": "@accent",
+      "Text": "@onaccent",
+      "AltBack": "",
+      "AltText": "",
+      "Border": "",
+      "BorderWidth": 0,
+      "Radius": 6,
+      "FontSize": 14,
+      "Bold": true,
+      "Texture": "Z:\\Outils\\LauncherCreator\\data\\Buttons\\68.png",
+      "TextureStates": true
+    },
+    "UpdateStyle": {
+      "Back": "@back",
+      "Text": "@text",
+      "AltBack": "@accent",
+      "AltText": "@onaccent",
+      "Border": "@accent",
+      "BorderWidth": 1,
+      "Radius": 6,
+      "FontSize": 10,
+      "Bold": true,
+      "Texture": "Z:\\Outils\\LauncherCreator\\data\\Buttons\\05.png",
+      "TextureStates": true
+    },
+    "Buttons": [
+      {
+        "Text": "Infos Serveur",
+        "Box": {
+          "X": 603,
+          "Y": 371,
+          "W": 170,
+          "H": 42
+        },
+        "Style": {
+          "Back": "@accent",
+          "Text": "@onaccent",
+          "AltBack": "",
+          "AltText": "",
+          "Border": "",
+          "BorderWidth": 0,
+          "Radius": 10,
+          "FontSize": 12,
+          "Bold": true,
+          "Texture": "Z:\\Outils\\LauncherCreator\\data\\Buttons\\10.png",
+          "TextureStates": true
+        },
+        "Action": "url",
+        "Target": "http://192.168.0.32:81/status/tmnf/aseco/info.html",
+        "Arguments": ""
+      }
+    ],
+    "ExtraWebs": [
+      {
+        "Name": "line",
+        "Url": "http://192.168.0.32:81/status/tmnf/server.html",
+        "NoScroll": true,
+        "Box": {
+          "X": 631,
+          "Y": 7,
+          "W": 235,
+          "H": 22
+        }
+      },
+      {
+        "Name": "players",
+        "Url": "http://192.168.0.32:81/status/tmnf/index.html",
+        "NoScroll": true,
+        "Box": {
+          "X": 3,
+          "Y": -24,
+          "W": 224,
+          "H": 495
+        }
+      }
+    ],
+    "Hidden": [
+      "profiles"
+    ],
+    "ZOrder": [
+      "web",
+      "webx0",
+      "webx1",
+      "news",
+      "title",
+      "subtitle",
+      "status",
+      "link",
+      "profiles",
+      "play",
+      "update",
+      "btn0"
+    ]
+  },
+  "Background": "",
+  "Icon": "",
+  "Skin": "",
+  "OutputDir": "F:\\Jeux\\test",
+  "SelfContained": true
+}
