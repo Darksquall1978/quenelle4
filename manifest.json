@@ -1,21 +1,976 @@
 {
-  "Version": "2026.11.19",
-  "BaseUrl": "",
+  "Version": "1.0.1",
+  "BaseUrl": "https://github.com/Darksquall1978/quenelle4/",
   "Files": [
     {
-      "Path": "Gaufres de foire.exe",
-      "Sha256": "9DE45D41CCB18FF38332D9EC320E4E7DABA99699A7118F6D1A357C74FD60041B",
-      "Size": 686
+      "Path": "TMNF Launcher.lcproj",
+      "Sha256": "F5103CB66F84C358E9CBB2C79822A0F62F70D319F5C1F1DD8097D6A428A5361F",
+      "Size": 4031
     },
     {
-      "Path": "TMNF Launcher.lcproj",
-      "Sha256": "840D00F48D0EC2AA8738DF755AB4B2131D35106CA757D75AF792AFE5940B559B",
-      "Size": 3671
+      "Path": "LauncherCreator/LauncherCreator.deps.json",
+      "Sha256": "B1D63758F1B0F62492D87EEB8C71F1982B88CF7C2EF0C75B1C5CA04797D93AB7",
+      "Size": 2451
+    },
+    {
+      "Path": "LauncherCreator/LauncherCreator.dll",
+      "Sha256": "D4DA91A7AE9503D6E3ABF02D800B5C6753B8AAFC680472B0949B1C211312C3B7",
+      "Size": 125440
+    },
+    {
+      "Path": "LauncherCreator/LauncherCreator.exe",
+      "Sha256": "30833A72F938136CC8382260A19322E723DD4F27D982E3BBFDC11388BA1F0DE0",
+      "Size": 151552
+    },
+    {
+      "Path": "LauncherCreator/LauncherCreator.pdb",
+      "Sha256": "403C15AD4855B9C3D6097BD8CD4ABDE2EC32FF3427B02DE478ADFC42C0EEDCDD",
+      "Size": 42700
+    },
+    {
+      "Path": "LauncherCreator/LauncherCreator.runtimeconfig.json",
+      "Sha256": "73B37384BB001E78DB2014D328750EB2990393712FD63CD00C0F41965B3DBE96",
+      "Size": 429
+    },
+    {
+      "Path": "LauncherCreator/Microsoft.Web.WebView2.Core.dll",
+      "Sha256": "ACDD517B951829F763D1255F32DF1E6A936CB8623A7EBFF6B8B24172DEDE6BD6",
+      "Size": 703328
+    },
+    {
+      "Path": "LauncherCreator/Microsoft.Web.WebView2.Core.xml",
+      "Sha256": "21CB257EEE30B17C2C5C3731A2EEAF327BE36D8069E9A6F4057C73C49E301F08",
+      "Size": 615200
+    },
+    {
+      "Path": "LauncherCreator/Microsoft.Web.WebView2.WinForms.dll",
+      "Sha256": "35879378CB078733AF0E13CE6DB8F0675593E3C8A10BFB0A5CEDB0766F875A59",
+      "Size": 39264
+    },
+    {
+      "Path": "LauncherCreator/Microsoft.Web.WebView2.WinForms.xml",
+      "Sha256": "6A8EC199373824FDEBCEDA7B3D780D0B31C82EDCEAE04D92391027C971DEA6C2",
+      "Size": 41869
+    },
+    {
+      "Path": "LauncherCreator/Microsoft.Web.WebView2.Wpf.dll",
+      "Sha256": "2964BFBFB7AA5960187875A5E0714CF7D9DE95FB7477D9D575338ECC9424A5A0",
+      "Size": 87392
+    },
+    {
+      "Path": "LauncherCreator/Microsoft.Web.WebView2.Wpf.xml",
+      "Sha256": "0EFF898556C2010AD07F29D9ADA70FB1E14255C6AE574DF8BE4396DE0F397C3A",
+      "Size": 143649
+    },
+    {
+      "Path": "LauncherCreator/WebView2Loader.dll",
+      "Sha256": "D3FCE90BDEECB08596E377DEA6A316354DD8949E32FF09B89D51BE00C14E21B6",
+      "Size": 194912
+    },
+    {
+      "Path": "LauncherCreator/Template/AudioKit.cs",
+      "Sha256": "5DDE77787A70CBB1145D94AC88958A3B9BD30605EE20B9A22DB9D92A448B8CF5",
+      "Size": 3556
+    },
+    {
+      "Path": "LauncherCreator/Template/Config.cs",
+      "Sha256": "F0A6F6A9AFF76C6F7AD78B0FA6C88AE91873D0F718773769B79880DD37AF0742",
+      "Size": 6884
+    },
+    {
+      "Path": "LauncherCreator/Template/Launcher.csproj",
+      "Sha256": "BC235DDB1702B718A89ADC0B06AE74CFD23CAA76D03D924EB49FA89F5C8E228C",
+      "Size": 1156
+    },
+    {
+      "Path": "LauncherCreator/Template/LauncherForm.cs",
+      "Sha256": "7D020B04F1E62509AE331A145679B3599B2A44680C0361844C37140787BA19DE",
+      "Size": 12418
+    },
+    {
+      "Path": "LauncherCreator/Template/LauncherView.cs",
+      "Sha256": "D6316028FB86E7BFEB390740BC67F58034777CAA8A903D46F919CBE0AD56558B",
+      "Size": 20390
+    },
+    {
+      "Path": "LauncherCreator/Template/PreviewBrowsers.cs",
+      "Sha256": "6B90D15A61B0D81ED11FA31D904CCB469B4DCB7B3B4138012940F561D1A826D1",
+      "Size": 2406
+    },
+    {
+      "Path": "LauncherCreator/Template/Program.cs",
+      "Sha256": "3FDD6D8A27AC49D46F94B5A050723E33216364FECF4485C271CD7D51BAA0703C",
+      "Size": 648
+    },
+    {
+      "Path": "LauncherCreator/Template/ReleaseUpdater.cs",
+      "Sha256": "FE3B2B35130328A6989D370571DB92189C9AE3963064EAA1453BE99556CCE96F",
+      "Size": 6212
+    },
+    {
+      "Path": "LauncherCreator/Template/UiKit.cs",
+      "Sha256": "C9F58E85A302DCA4E20B4A7B217B1FDF749D5593C0265A43FCD90FCC69DCBC1C",
+      "Size": 10346
+    },
+    {
+      "Path": "LauncherCreator/Template/Updater.cs",
+      "Sha256": "D34CC9911112E4EA77C4B75E6CEBC19DFC67387EA6CC3447E9182E1C82230B55",
+      "Size": 7286
+    },
+    {
+      "Path": "LauncherCreator/Template/UrlTools.cs",
+      "Sha256": "446467852D993668C305BE840297A26AF47E6E6210C677852DCF041E62138CEF",
+      "Size": 2622
+    },
+    {
+      "Path": "LauncherCreator/Template/WebFrame.cs",
+      "Sha256": "EEB75F362A1E90D5DDF7D3B2ABFD1C22D32A5B578C47707E8B48B44F99859988",
+      "Size": 5277
+    },
+    {
+      "Path": "LauncherCreator/Template/WindowSkin.cs",
+      "Sha256": "09B236FEBAC0821C7A757108594487D15E36B4E7999105EEBB40814CEE02A140",
+      "Size": 2323
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/01.jpg",
+      "Sha256": "48753137F53889799B2F299ADD6EE425C3539A404E9E10D63DEC24E4D1335708",
+      "Size": 2009
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/02.jpg",
+      "Sha256": "A16F16B2D1845591D86AF40D4214E26E76BD453DBF8AF4FAB4E9501EEB2FE80E",
+      "Size": 1999
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/03.jpg",
+      "Sha256": "D314FA49CE2DCE8261407BFD96D7B6BCC67CBC963790459E86775FF410907DE2",
+      "Size": 3168
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/04.jpg",
+      "Sha256": "572EBD5F0037A2C98BDD4620AA1DBD923D64AE7C7489E5378C02754B40E1C562",
+      "Size": 3226
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/05.jpg",
+      "Sha256": "F2198C12AF1BD552D614E0965C2AFAEE69FC628216FE80DAF27EFD5ED711850C",
+      "Size": 3581
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/06.jpg",
+      "Sha256": "B39C847210C97A379C719344B2EEA274184B1ECB666E2DB328E07EB446ACBAD3",
+      "Size": 6558
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/07.jpg",
+      "Sha256": "EA3683D6201488C47CECE3930B249DB3CADB4A17B5AF679BF7FBB06A1084E7A0",
+      "Size": 2902
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/08.jpg",
+      "Sha256": "39738F564AEED3EFDFF69078260FDF44154D789C41CC33786A1CB88B70076744",
+      "Size": 2389
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/09.jpg",
+      "Sha256": "7647AFDE8DAFA988DEAF0929FBF8AE8367637A9CCB3790CA9E1C06DF449F1C96",
+      "Size": 3043
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/10.jpg",
+      "Sha256": "D658ED94BCE9FBB1B00A3ABBE4D1E836C815827DFDEAE432A39624BF8EF74CBE",
+      "Size": 1641
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/11.jpg",
+      "Sha256": "A4D2BF17336DA8B18A6FB6CF4F5120A8FDF88E9E0BDCF613F375DCD2639FCB01",
+      "Size": 3188
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/12.jpg",
+      "Sha256": "90598BDFAF148BDBDDA3116A0300E5104D2117E882FBD599DD28D8A951A79C0E",
+      "Size": 3323
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/13.jpg",
+      "Sha256": "5A8B65FB50D1AD407968D6D374886578FAC473E140985BE5FDFFC261CE63C637",
+      "Size": 1962
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/14.jpg",
+      "Sha256": "512F84BD1DD2804D60398DCC810E9C4717E67F7D06A2C4708EA6704A8139BE24",
+      "Size": 3505
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/15.jpg",
+      "Sha256": "D98C7C428B1DCEA1B98B6614763F54C9723247EDD81FC991A62631C5BC6D1302",
+      "Size": 2415
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/16.jpg",
+      "Sha256": "990339BFCF5747748510737F5DAB92C2566BE42A3AA13CC39615973CF02D8F2E",
+      "Size": 1969
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/17.jpg",
+      "Sha256": "D094EA3131EA2EA6670284F78A6D08E97BCB652C4E21B6A08EA3120CA6D43D72",
+      "Size": 4257
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/18.jpg",
+      "Sha256": "68CA5C15FCA3F481CBE5D21A52B7AD58B32F07A99B3149824BA5CD686D8376CA",
+      "Size": 2895
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/19.jpg",
+      "Sha256": "1EEF7C328114D0930711A856374190042DD1BBB3C6E7BBF9386618BE1F092047",
+      "Size": 2618
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/20.jpg",
+      "Sha256": "2C88F0577A4F41F6843FE42A08E2A818047A7B19E6D7AEAB4A1248CD1983B53C",
+      "Size": 4349
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/21.jpg",
+      "Sha256": "7E9A6CB528C5DB46B10C084E423BF660E9DED31937610C90EAC9B5851F552A02",
+      "Size": 4133
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/22.jpg",
+      "Sha256": "5003BD9C821F0ED9CEE6664969B3D6326E548E4B673FC4C9DE499AFBBF377F29",
+      "Size": 2790
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/23.jpg",
+      "Sha256": "E82AF5686956BB5EB70C2ED1782FEA25EEF684FD3428E4665A7B4EB5A2476D6A",
+      "Size": 5511
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/24.jpg",
+      "Sha256": "36AEDCA61E8A151071B2EDE0D74115E5263F6D282D2D55CA7EF34E28834C4374",
+      "Size": 3517
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/25.jpg",
+      "Sha256": "93D47612BAFA4B383541614D052710BD7CB4ABDD8E3E0644A1D0562A669C8D65",
+      "Size": 4079
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/26.jpg",
+      "Sha256": "F9EFB3B4B40ADABBA0E2F16D9319DDA91379944785F6C13D0EB41517D4E5D5EC",
+      "Size": 1094
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/27.jpg",
+      "Sha256": "754BEEAB3F5698A61BAB3BB38E47A3A276FE5E46E02EC062F1DD7E200489C19F",
+      "Size": 3533
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/28.jpg",
+      "Sha256": "4B39F90FD5B3A1C09B4AD00750EE3EA92511DB4434F5B64D55DC0AE7E67AEA6A",
+      "Size": 2250
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/29.jpg",
+      "Sha256": "CD22D2AABD868910C49E986ED998D9EF8083E6A0F3603F217D73C94AF01EDDF8",
+      "Size": 3872
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/30.jpg",
+      "Sha256": "D02633803CF1DF589C611794258FBE427A2BF2F3752BB40DB8F5534CBC10BE81",
+      "Size": 3335
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/31.jpg",
+      "Sha256": "8C79290EEC7D98ADCBCDC78926A5E715ADDA1240CBF7A21C7CA8842B2BDECC24",
+      "Size": 3164
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/32.jpg",
+      "Sha256": "655255918F0BB6EE049DFDDD2410EEC8576D4426B1030532F3ADD900680702EA",
+      "Size": 2961
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/33.jpg",
+      "Sha256": "A32AD637C9EC5D1191972FE0BD7CA91CE6F305B0EB46AFD12B1F9D13572C35BD",
+      "Size": 3740
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/34.jpg",
+      "Sha256": "8843B7A8CC83AF3397AD7BEC05B6DE7794FE9893EAAB204A58A5AC846517D7E2",
+      "Size": 5096
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/35.jpg",
+      "Sha256": "9C034E6E1C835CB101E5DD60FF78B0FF8B308CA492DC6BE6E6174C695E2589EF",
+      "Size": 2299
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/36.jpg",
+      "Sha256": "2E2070EEFDB7AAD048FB44DF22743184224C544E5E13B6FB05CCB54E2E30AFD1",
+      "Size": 4091
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/37.jpg",
+      "Sha256": "3C36158AC6EF40F375B31193170DB8D08DD5D2B3878DB06929C168127E363556",
+      "Size": 3159
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/38.jpg",
+      "Sha256": "5AB785F2CDFF37527376A3D843B567DFB6A8AB5057B3939B839ABF304066732B",
+      "Size": 4523
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/39.jpg",
+      "Sha256": "D2BF8D06BBCE8C4025756A1981EA1449F0F5A9618070B238DB2AEE0DB2D8CF4C",
+      "Size": 4818
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/40.jpg",
+      "Sha256": "890BBDD85A9E0B7E26C0A8CFCFF98579D94512C1BCE02DFC1E89F21BF103955C",
+      "Size": 3834
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/41.jpg",
+      "Sha256": "1BF0177849547C271E665DD7BA480B8E68704B291A5C9296D008AEECB89E907C",
+      "Size": 3029
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/42.jpg",
+      "Sha256": "8663B6E1500ACE35F8B795E8C2861A9858E4585FA86BA4F88F05B9CF972463ED",
+      "Size": 8197
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/43.jpg",
+      "Sha256": "073B3A9BB85871FEB60F785A5F5E6AEFBB1330FC46BD1CF20677DC6194FD50F9",
+      "Size": 1399
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/44.jpg",
+      "Sha256": "B25C347BD1D3AA9C42B3952E97D3BC753EEB66A067BAD9C799A5D25FAABBD2B4",
+      "Size": 865
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/45.jpg",
+      "Sha256": "49DA73E97336572C1B96BC95925DF239D4822FB514A6B9846C3ED8AC0BD5BD95",
+      "Size": 4207
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/46.jpg",
+      "Sha256": "EDB83485691439D1B2646C534409273EB29F252F569ED7EADEB53018567409D6",
+      "Size": 5816
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/47.jpg",
+      "Sha256": "7B46A693D674615ABA1735C4D4067812234721A8B8E8AC54EBF9CA7F6E45651E",
+      "Size": 2291
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/48.jpg",
+      "Sha256": "417469D776714178529BB24E08D324718B3919508CA86555FE694A880946414E",
+      "Size": 5064
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/49.jpg",
+      "Sha256": "1CB8F0968A758ADB7F9364D763F56DE8664AD571957ADF3A2736C1399A0EF3D3",
+      "Size": 4352
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/50.jpg",
+      "Sha256": "11500252B9EC7971723FB2F10BC3A05D044AAEDB98050008037A24EDB2EECB9E",
+      "Size": 2876
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/51.jpg",
+      "Sha256": "9E6DA228DF3815EA45E8FEF9DB352EE39A3893E844E7648374D12CDCB20BAB5A",
+      "Size": 3532
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/52.jpg",
+      "Sha256": "41E9F0EB18C0ED70744610B028D0521A41E462359243872C531A796D260BCB82",
+      "Size": 5045
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/53.jpg",
+      "Sha256": "7B398572BEB01771273B5FFCA80FF828A4075875739792B2A3E1A246E643699A",
+      "Size": 4652
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/54.jpg",
+      "Sha256": "F54D32C62281395A46DCAE6216217CDAE8D69154C0C285945169EB786FF86212",
+      "Size": 1449
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/55.jpg",
+      "Sha256": "653DFB20EE56568990176BD19C0593303499A63E9B7FD93DD6EFE15C480B913E",
+      "Size": 3783
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/56.jpg",
+      "Sha256": "8B9F5435EF8F97A7FFE14BAE65438AFF54F880DF2AD040FEEF92F1FFFF1614EE",
+      "Size": 5040
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/57.jpg",
+      "Sha256": "AE0339D2963A2565E1E57E6FD0B4AFE017669046C38C19A8F8176388D859DBDD",
+      "Size": 3331
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/58.jpg",
+      "Sha256": "541CD4421E2C29D311F290F53FEE7498911347047178A5DB3CD3F4C7A73E7402",
+      "Size": 6359
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/59.jpg",
+      "Sha256": "329DD746C1D6CF28F1C1B12A5D86F883A305B067C47707B8F55C83ECD7E001C3",
+      "Size": 5839
+    },
+    {
+      "Path": "LauncherCreator/data/Backgrounds/60.jpg",
+      "Sha256": "D9D978686697D31F6D0BFA419B0B9AEAE36869790A9065D4320455B1B925C812",
+      "Size": 5378
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/01.png",
+      "Sha256": "AD14F4A499EA18A43AC7F0CF7F714E18026B4DC9BE31FA7CF99A4B8242BA498A",
+      "Size": 4511
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/02.png",
+      "Sha256": "ECF9D645579E48564CE120DF43AA36E0BFCDE7F3B59CE20B2D7C55DD1FBF1B05",
+      "Size": 691
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/03.png",
+      "Sha256": "130F7727FEEC1722E230B4B025575C16D1AB1205604E8EAE832E8532BB130FBF",
+      "Size": 1607
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/04.png",
+      "Sha256": "BEF88E6CDFAECAD7914787E0EA58066B01F99C29867650F9367F77A31B6E38FD",
+      "Size": 1305
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/05.png",
+      "Sha256": "77E66E22DA6AD07D208097E32BAED3AD6B63B568EA8EF34D0930B480B5C90F71",
+      "Size": 393
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/06.png",
+      "Sha256": "797156D5B410F72C1735B4D83257580836137889236F7D966411D72D63DB8028",
+      "Size": 480
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/07.png",
+      "Sha256": "4F15177304AF1E59B960FCD249FDA5BA12C1FC18F56566BD24FF1D6296424A9C",
+      "Size": 443
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/08.png",
+      "Sha256": "9B1798E6FCE090FF83BA045B350F396D777E986C3AC0AC7FE6E6C9B1A5A93FDC",
+      "Size": 569
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/09.png",
+      "Sha256": "615C17E385B9371C88A6B4940CFFBC87C2DEF7D984F950268D4FEF4F6C6F10FB",
+      "Size": 428
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/10.png",
+      "Sha256": "893D926065FA9BB367BA92AA7994A4ABD2172BAA1CB9E97EDD9AFDF0962399BE",
+      "Size": 1511
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/11.png",
+      "Sha256": "E577CD34CD95B6DF7B2DB1471FEDCC01DA6D2301FAD9487056140C3A283FEFB0",
+      "Size": 323
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/12.png",
+      "Sha256": "8366F5BD4FB7396EFE035DB57D82AC60C0015E98B21A472165A9DCBE4950FD6F",
+      "Size": 8786
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/13.png",
+      "Sha256": "3A0D80D5C6E504B1826AB8C750406F39DC23829E8A77DE905026EE160D9090D9",
+      "Size": 2579
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/14.png",
+      "Sha256": "D099905693FDC3DDA2C41805DDFE13EA765A0B951304221BBB64E9FC7A6DD526",
+      "Size": 1466
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/15.png",
+      "Sha256": "391E0B6D4CC582806E3EB1F4A71D03045CE3BB0F2A7E627B14BA11E25E86DE9A",
+      "Size": 2786
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/16.png",
+      "Sha256": "DEDBEDE81632FD59A71E6970FD46F941A73C8374B3F66440BD3053C024EE3C34",
+      "Size": 445
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/17.png",
+      "Sha256": "53FF5D509ACF43A660BDA6B9424B81852FC737E56C5EA23AA9C52DC699B78408",
+      "Size": 1065
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/18.png",
+      "Sha256": "2C33670AFDAE41FB9D50A83CFB59F9A0714E5E82D6D204BC9E85B6508DC8313E",
+      "Size": 1605
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/19.png",
+      "Sha256": "E95ADBCB7671D53D548968EC782D10C7E28ECFA63E021A9BF09263CF401D28A7",
+      "Size": 3051
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/20.png",
+      "Sha256": "71D6E14FF1725452054ECEF6B190A41957C64FDE2C93F6A8F8E120B80EC8C4BE",
+      "Size": 2055
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/21.png",
+      "Sha256": "6AA718A9977635B1029E50A3FA652605DE07A14422C2B931DD9A62239A7B33FC",
+      "Size": 1938
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/22.png",
+      "Sha256": "0802C309FA221D01C57C61D547F436D4C6CE9C84CF133F1F2EE69F54B0BEACAC",
+      "Size": 1495
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/23.png",
+      "Sha256": "194A92B4D21CE50DCFEEA3F8E5DA7CCAD5F8D3A4A89C8458E98B84106631D557",
+      "Size": 1950
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/24.png",
+      "Sha256": "C725D5A67B8AA63ED7881C727B470D20BDB179E08DB9E0B5FBD8388A899A29D3",
+      "Size": 1842
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/25.png",
+      "Sha256": "257BBB6956CA812F55C4C4CBE9B46D63CA5C399C38B43FE976A35E24B8AE52B4",
+      "Size": 487
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/26.png",
+      "Sha256": "6D09EB2FAEE01479399F72CB9B17A6ADA2D5D7EAD8B0E795459A68FE6C67BF15",
+      "Size": 1006
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/27.png",
+      "Sha256": "256A64822D3AE0ADF2F2AF98ACFA5E0E3832C274177C355221C9E98F6EBAA4B8",
+      "Size": 515
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/28.png",
+      "Sha256": "8F6563ABC07AC87C74F098E616A806F832AFFA8369DF4A6673FF63760545FD62",
+      "Size": 3948
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/29.png",
+      "Sha256": "50EA719F538B09CC26F97006026282F060BBE9C3E36FAB3DE49DCED7C6D66067",
+      "Size": 2475
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/30.png",
+      "Sha256": "61145B383E4DEEA10FEC54BAA1B7788B97BCF3DD3345DD3108ACDF838C7E33AC",
+      "Size": 1238
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/31.png",
+      "Sha256": "2E0BA0E8B2318F1183F37470288AA525F296C5DB8871E4091D6789C42239CED7",
+      "Size": 538
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/32.png",
+      "Sha256": "49555FF0439E12C88D8A94E53F00993C2ADFBF02E4939979EC9EEA4B68C56351",
+      "Size": 1010
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/33.png",
+      "Sha256": "6A32923F644434F7AC8FE23E0E803280189A955623430AAFE67826464B6CDE81",
+      "Size": 1687
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/34.png",
+      "Sha256": "47105558E1E24CCC87AA0847E2473D13171557797B7784EBDC34CF653496026E",
+      "Size": 2848
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/35.png",
+      "Sha256": "77F1FD57E06972E0BB3CCDD93E66B77345187D031AA4CAA100DE2574585447C1",
+      "Size": 354
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/36.png",
+      "Sha256": "DF058C3FB8685DF61A499D68233CB8EC28BD5D2B914E53DF1F0AC66F563151C8",
+      "Size": 1417
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/37.png",
+      "Sha256": "0270BBC328A9E74128526FFBA24DECEC43DC089A37FC5393251C20E4AEAB339F",
+      "Size": 1438
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/38.png",
+      "Sha256": "4628818B353DC1BC06E6CC23CA72399865443A6C63A54AA4D365B75CB53C72B3",
+      "Size": 549
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/39.png",
+      "Sha256": "F33B4A0037229B2B08B245CBD11D219933A9CA6139200AD150ED410AAE223257",
+      "Size": 2583
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/40.png",
+      "Sha256": "9A12AEDE20C343F0444E93FC18FB5A05CABBBEF04D742B0865ADB12FEFE4C762",
+      "Size": 651
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/41.png",
+      "Sha256": "E1D0EA899B46AF5D57733D8946B5E46A61E58B4DC5B80D9111BB275CB0992081",
+      "Size": 584
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/42.png",
+      "Sha256": "ECE7772D65E22D47584AC28C8F050D3FFB117A12039594CA25AC9BF01C7E8498",
+      "Size": 3133
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/43.png",
+      "Sha256": "6109DAAF0AF11CD4B3889827A25D7EAA4EC43570E7B337A2EBA663D626DA6037",
+      "Size": 973
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/44.png",
+      "Sha256": "B1BD5B7950722C8226AA7442AF5C4B7867EF19910B309B8B881C6C538474EFA5",
+      "Size": 522
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/45.png",
+      "Sha256": "3EB653F2939CE9D22C4C871B20DC88D9C00EC8E6BD66E9C1014B170B6525AD8F",
+      "Size": 1084
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/46.png",
+      "Sha256": "3B8931743FCBF4DFE51189EBEB9547CDEC7BC0AEEC98ECF982BC2DFE6314AF8F",
+      "Size": 310
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/47.png",
+      "Sha256": "3561614C2ACA54F763DB7FBB1F6E044725729E3A2C28C53136FAF63CADF11543",
+      "Size": 1653
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/48.png",
+      "Sha256": "98A1B7154BC24884DCDDA1E470D420B73288D2BD432060043B3933632B91CC1D",
+      "Size": 1806
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/49.png",
+      "Sha256": "4854E10CA994C390A64ADD91790987BA2F1FCFB48C8E1F416F022DA6F76A6795",
+      "Size": 1741
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/50.png",
+      "Sha256": "CD4F0BBE70806974202D0F50D47A38753A928F9B87FB91404BA5065E6B64BB6C",
+      "Size": 1560
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/51.png",
+      "Sha256": "840959A9CD1895ED565599EBAF7EFBB5808F5C3A564FFC058A63CC9FE11EF30E",
+      "Size": 1159
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/52.png",
+      "Sha256": "1913F4FF8BDAF866F95DE5DF77625206211BD2570F81BCE181B9FAB9844A47C3",
+      "Size": 1460
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/53.png",
+      "Sha256": "B45DD85B1AEC4F92E3B35114AFDF14208E558321E64FA5D737C706C3D2121EE4",
+      "Size": 1305
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/54.png",
+      "Sha256": "1ED65313AD89BD959EEFFE2136FF5580F8367F6633916E022E2EF66EE75D0F63",
+      "Size": 1895
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/55.png",
+      "Sha256": "EAD7DCF2CE8FB645704D46BEF34CCDF8BFF78F624C61CAA8CB4CC099393F5868",
+      "Size": 371
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/56.png",
+      "Sha256": "025B72E6C24D21F55DD48C398AED409D25ED469EB68089C09EE74C2C5796B685",
+      "Size": 1145
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/57.png",
+      "Sha256": "20315F8D07029DD6A0EFC7449EE923150896A0D7623CEB37FBCB012D6ED7ACEF",
+      "Size": 1563
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/58.png",
+      "Sha256": "1F3FEC748FCB5BD5D26B2470783A95200C8EDA49450B71CC209CBBCDFF7F5D5D",
+      "Size": 1014
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/59.png",
+      "Sha256": "AAD0899478FBEA97D8103B78C999703CB9B4F7C02B340BE49A65369A040E5070",
+      "Size": 1072
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/60.png",
+      "Sha256": "E0C781BE88938F2E669799D4ECCF0B765706A68069AFF64315405563836A7041",
+      "Size": 1553
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/61.png",
+      "Sha256": "35B5CAD9A7C2BBA9E21C27415289A7F3702DFACD27B0BE16215559F11EE0A1C1",
+      "Size": 485
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/62.png",
+      "Sha256": "44704324707F620297356EFE05D5B4E8D56D221BA3FE4B86EEB22E534393D4C6",
+      "Size": 1589
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/63.png",
+      "Sha256": "B6648CD81E558AE0384259615B7432838E3725173418033CDBA01FFBB6AD49CF",
+      "Size": 1457
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/64.png",
+      "Sha256": "9DB1D0BB458D573D4AF3787D0AC7A9FC9D0289D41357AC88F70A94802FF58A20",
+      "Size": 1420
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/65.png",
+      "Sha256": "E72669C845047A283D6B694877CF09DE81BAF38DF33797F91C1383F5B7B9941B",
+      "Size": 656
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/66.png",
+      "Sha256": "F6EECE08F2ABCC7862C2E1569C5CA3F1D1BEC3FF2C9C64655C55288937E674A2",
+      "Size": 3336
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/67.png",
+      "Sha256": "008011DEC78C06EA167C630F6BFF5ACFDE8C7823B73B00CE26F43649122312BE",
+      "Size": 447
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/68.png",
+      "Sha256": "ABA2D1B355757291678F6B354A6CC7DDCBE40D5C581226FC675F8CE4B1127400",
+      "Size": 2636
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/69.png",
+      "Sha256": "38D3BF7F18498C371378C8C5BF400B742F86D6452B2F4F6D70AEA4B55DE20562",
+      "Size": 5215
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/70.png",
+      "Sha256": "7E8CE21F2CE67855694A6876FB33FC1EBAC52964F0A8962E9C24A3105AAEAAED",
+      "Size": 1813
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/71.png",
+      "Sha256": "C855D3839E3099B18710C0EC5B749DAE74E73A72E64F597A49634FFA476ED72B",
+      "Size": 1530
+    },
+    {
+      "Path": "LauncherCreator/data/Buttons/72.png",
+      "Sha256": "FEE3813C4D0397F7E9F3C43B2D57F3C0846EB6CA0AAFBCA904EFB05510BB0E81",
+      "Size": 528
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Apple Arrow.cur",
+      "Sha256": "5F79AE68665B4092BD2704B60C33B0077E4870645C538D4BDB19962961EA05F0",
+      "Size": 4286
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Apple Hand.cur",
+      "Sha256": "CA06D0D8E33347CA273CC5A0C57D19A50D8302FD599FEB821E5D72665FEF3FFE",
+      "Size": 4286
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Blue Aero.cur",
+      "Sha256": "45D20C7A25F2695F3BAF0CB5711F077E66BC94F6B77D2A69C59854487357418C",
+      "Size": 4286
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Color Arrow Blue.cur",
+      "Sha256": "63AE6B372C41DA2D131536CD6DF279D0E70DD0A7DB77457F619739531F5696D1",
+      "Size": 2238
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Color Arrow Gold.cur",
+      "Sha256": "D376CB1004A9BAE60532A77BE691A20D109F18F733A14799CCCC658BE43EF8C2",
+      "Size": 2238
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Color Arrow Green.cur",
+      "Sha256": "1963AC9F616584BAC2EB9C0BB8A1AF55B72CB4E2C4EE036452AEAA0B318F80E9",
+      "Size": 766
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Glow Shining.ani",
+      "Sha256": "B9A50FF5A1B2C1DA3D247BD9932CBC421B891DD4DF99E17E45D18D4B8420D809",
+      "Size": 30126
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Glow.cur",
+      "Sha256": "EE93C5040D871520834C96D9078A37058864B840418F47F58090008400F56408",
+      "Size": 4286
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Gray.cur",
+      "Sha256": "34DC22AADA726F0DCBC8FAD3D89AA5AE22BEA21569FB02EA5ED4219CDDB2925A",
+      "Size": 4286
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Microsoft Hand.cur",
+      "Sha256": "EEB61C78C583B09597A14DE97C77C90BBECB3D9AF9ED0B630F84A0BD35F2E56C",
+      "Size": 4286
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Paper Plane Alternate.cur",
+      "Sha256": "124CE848ACFCBD390363764E86918CE5DFECF90497CD676A12D0F6D70A89BC99",
+      "Size": 4286
+    },
+    {
+      "Path": "LauncherCreator/data/Cursors/Paper Plane.cur",
+      "Sha256": "34AE6293E83DA29A637091191838BC6ADE68D1BF1403A556BAD2E4F6FE02C027",
+      "Size": 4286
+    },
+    {
+      "Path": "LauncherCreator/data/icons/Game.ico",
+      "Sha256": "659CB8A8ACD59E576C22E52214D3B89DAAB9C015DEDB22E2EC116F76E8EA9ADF",
+      "Size": 62193
+    },
+    {
+      "Path": "LauncherCreator/data/icons/Magic.ico",
+      "Sha256": "14E822D81272AA0B402ED500F252507BAC50FCE352E4C57C4096ECCE217FBB71",
+      "Size": 62408
+    },
+    {
+      "Path": "LauncherCreator/data/icons/Star.ico",
+      "Sha256": "05ECB99627D16FA9D350C5B399F38249FD095BF145BABAC40F7616D453C34222",
+      "Size": 63122
+    },
+    {
+      "Path": "LauncherCreator/data/icons/Tools.ico",
+      "Sha256": "F0BC43BD0A97F98DE3E6EF151C30E8A1037B06677C9FCA8171CC7DEEBBEE5B9A",
+      "Size": 71680
+    },
+    {
+      "Path": "LauncherCreator/data/Images/Biker.png",
+      "Sha256": "C7EE9D3A86FC24061770CDDEA40A0D8BD168144918F910444B43F25F3F4F2050",
+      "Size": 27695
+    },
+    {
+      "Path": "LauncherCreator/data/Images/Car.png",
+      "Sha256": "8127CB5F1C9A2B8B4FC73DE0569F40AB2D7F90B7FD1EB8AD487BABABC3A01993",
+      "Size": 21286
+    },
+    {
+      "Path": "LauncherCreator/data/Images/Christmas.png",
+      "Sha256": "E6F3433F51B8A17CB91078054473232F0CF415DDB25BF9CC0FBE9CB67189A121",
+      "Size": 30933
+    },
+    {
+      "Path": "LauncherCreator/data/Images/Laptop.png",
+      "Sha256": "8A10C534BA5D80F968479186F209B9D609B77FD618471771EAFE45E47A03C5F5",
+      "Size": 37326
+    },
+    {
+      "Path": "LauncherCreator/data/Musics/Flourish.mid",
+      "Sha256": "5921B5E73FEBE6E1DF1B99C76271EB8C693075280ED5E6EE663C6D0FE1758953",
+      "Size": 24253
+    },
+    {
+      "Path": "LauncherCreator/data/Musics/Onestop.mid",
+      "Sha256": "679054DB4E301027FEF6A80C7B5D3E0F4F159E7BE38DC4392B56D264F77A8632",
+      "Size": 40075
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/1_Click.wav",
+      "Sha256": "C8AE910ED2073D199771E46C602A28D24C1FC7AC79A5F344971CAEDE660947D4",
+      "Size": 7878
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/1_Enter.wav",
+      "Sha256": "57FA90B2E8BFCAC770947536A062EB506F92EA90F0F5220CB960C8C089F59E43",
+      "Size": 3025
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/2_Click.wav",
+      "Sha256": "625665DD17444B0A5645DCC548F78E415C597575380FF66C5446A64E89DCF0E0",
+      "Size": 6682
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/2_Enter.wav",
+      "Sha256": "767B54C6643C8522D294693290C1171F32CE8DB5D6B8CC19D450616604CA3E2B",
+      "Size": 8788
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/3_Click.wav",
+      "Sha256": "A215C66D213A46EB77AB5BA0D441D2BDF8B840A951475DB7AD304FBABB702E28",
+      "Size": 5304
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/3_Enter.wav",
+      "Sha256": "CC769004877FF2EA09E877502D22254FE091C36D01CEA82FF39F84DD8AB0170A",
+      "Size": 1811
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/4_Click.wav",
+      "Sha256": "2A1E267BA03F3A6C084E7B47AC63118C8946BAD7BE2CF3A994EBC5FBFD860657",
+      "Size": 17338
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/4_Enter.wav",
+      "Sha256": "D2FB39C039ABC17D7838F66D6E0C67CC890924C7182F7ED59DCC20EFD55ED724",
+      "Size": 8624
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/5_Click.wav",
+      "Sha256": "2BABB49407FF2972EFAF8C6821B0CD950DF3FE6E5FA46A94B09984AE5ADF7DBA",
+      "Size": 5524
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/5_Enter.wav",
+      "Sha256": "0CF98C9B065FFDC259B44985905B563FCF627919B73C0EC2636C4219D8E72574",
+      "Size": 1760
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/6_Click.wav",
+      "Sha256": "B00CB0F2161F1A4CF043B9F16C1AE2677BB35125CB640430668E073E6597B387",
+      "Size": 1016
+    },
+    {
+      "Path": "LauncherCreator/data/Sounds/6_Enter.wav",
+      "Sha256": "1EF20A78F373B5C3619E2BC010F5FB1C873C648F6A6253CE170016371B12C18E",
+      "Size": 1792
+    },
+    {
+      "Path": "LauncherCreator/runtimes/win-x64/native/WebView2Loader.dll",
+      "Sha256": "D3FCE90BDEECB08596E377DEA6A316354DD8949E32FF09B89D51BE00C14E21B6",
+      "Size": 194912
     }
   ],
   "Launcher": {
-    "Version": "1.0.0",
-    "Url": "TMNFLauncherLauncher.exe",
-    "Sha256": "C05D8870C81CF1D805F7809387133F15C2DC0F73F64B1F119781AC3BF66386A9"
+    "Version": "1.0.1",
+    "Url": "LauncherCreator.exe",
+    "Sha256": "30833A72F938136CC8382260A19322E723DD4F27D982E3BBFDC11388BA1F0DE0"
   }
 }
