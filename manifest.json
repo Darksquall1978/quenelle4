@@ -1,0 +1,31 @@
+{
+  "Version": "2.0.3",
+  "BaseUrl": "https://github.com/Darksquall1978/quenelle4/tree/main/maj-tmnf/",
+  "Files": [
+    {
+      "Path": "FavTMNF.url",
+      "Sha256": "9D712D7A06B41578E8F731E739B9A91BCA0295E954ABC5D5DBF65CDC18D0BB42",
+      "Size": 125
+    },
+    {
+      "Path": "TmForever.exe",
+      "Sha256": "3847CF9F20BFC63914450060ED528C12104F743D96AD23D6E76ABD178DE8C84F",
+      "Size": 10498048
+    },
+    {
+      "Path": "TMNF.url",
+      "Sha256": "F124C1EB75590FFB99BAE70065E42EFF588D1DE731084807A7013F436BBC5F9E",
+      "Size": 122
+    },
+    {
+      "Path": "WebView2Loader.dll",
+      "Sha256": "37996D81F0F3A13E93549F74F722FCE25D70B00E93E4A470C34B75D7231BFD1D",
+      "Size": 195424
+    }
+  ],
+  "Launcher": {
+    "Version": "1.0.3",
+    "Url": "TMNFLauncher.exe",
+    "Sha256": "C202531DB316B697486B2C018AD6E18A23840E491E7B2E8D447C5252CB4127C8"
+  }
+}
