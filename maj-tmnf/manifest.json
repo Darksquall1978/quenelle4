@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.4",
-  "BaseUrl": "https://raw.githubusercontent.com/Darksquall1978/quenelle4/main/maj-tmnf/",
+  "Version": "1.0.3",
+  "BaseUrl": "https://github.com/Darksquall1978/quenelle4/tree/main/maj-tmnf/",
   "Files": [
     {
       "Path": "FavTMNF.url",
@@ -19,13 +19,13 @@
     },
     {
       "Path": "WebView2Loader.dll",
-      "Sha256": "D3FCE90BDEECB08596E377DEA6A316354DD8949E32FF09B89D51BE00C14E21B6",
-      "Size": 194912
+      "Sha256": "37996D81F0F3A13E93549F74F722FCE25D70B00E93E4A470C34B75D7231BFD1D",
+      "Size": 195424
     }
   ],
   "Launcher": {
-    "Version": "1.0.4",
+    "Version": "1.0.3",
     "Url": "TMNFLauncher.exe",
-    "Sha256": "4972EA61F537C8F541AAEAD4E19FE2C9829D38CC5C88757B6DB40160990DB81E"
+    "Sha256": "CF57CC010E7CA6E21E6D9EA8ED5568AC8E56B9FE8BEEF4D510BFC8C688ECDD77"
   }
 }
