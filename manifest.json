@@ -1,11 +1,16 @@
 {
-  "Version": "1.0.16",
+  "Version": "1.0.17",
   "BaseUrl": "https://raw.githubusercontent.com/Darksquall1978/quenelle4/main/",
   "Files": [
     {
       "Path": "tls1.0.bat",
-      "Sha256": "5C68114E1863E0EEA470C02DDC353631D488CF537B37AB87AD09BD692AEBEDAD",
-      "Size": 2240
+      "Sha256": "CCCD2745BA7D150E57C7C84A130ADF15386A71CB6679E8A231B00CEF77B70999",
+      "Size": 2966
+    },
+    {
+      "Path": "tls1.0.exe",
+      "Sha256": "055C372EC65D866565D13FE1154FBB035F5C92C676F0EEBE96C69622739948A8",
+      "Size": 126976
     },
     {
       "Path": "TmForever.exe",
@@ -19,8 +24,8 @@
     }
   ],
   "Launcher": {
-    "Version": "1.0.16",
+    "Version": "1.0.17",
     "Url": "TMNFLauncher.exe",
-    "Sha256": "13E7A0C85D0802206BA8D4A99AF3C2636026650041AB2D523F61930997D6C790"
+    "Sha256": "E91B7A978FF934B564FBE12CEDCD50CEEDE999A126DC2F5BC0003079DC213AE7"
   }
 }
