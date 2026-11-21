@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "429919",
   "BaseUrl": "https://raw.githubusercontent.com/Darksquall1978/quenelle4/main/",
   "Files": [
     {
@@ -8,13 +8,18 @@
       "Size": 10498048
     },
     {
+      "Path": "TMNFLauncher.exe.old",
+      "Sha256": "7274683FFDC368F5184FF9C2A9EE7F820450346D43F7D5917A3F2B7CFDF44863",
+      "Size": 2904172
+    },
+    {
       "Path": "WebView2Loader.dll",
       "Sha256": "37996D81F0F3A13E93549F74F722FCE25D70B00E93E4A470C34B75D7231BFD1D",
       "Size": 195424
     }
   ],
   "Launcher": {
-    "Version": "1.0.6",
+    "Version": "1.0.7",
     "Url": "TMNFLauncher.exe",
     "Sha256": "7274683FFDC368F5184FF9C2A9EE7F820450346D43F7D5917A3F2B7CFDF44863"
   }
