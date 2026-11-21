@@ -1,5 +1,5 @@
 {
-  "Version": "2026.11.21",
+  "Version": "1.0.8",
   "BaseUrl": "https://raw.githubusercontent.com/Darksquall1978/quenelle4/main/",
   "Files": [
     {
@@ -14,8 +14,8 @@
     }
   ],
   "Launcher": {
-    "Version": "1.0.7",
+    "Version": "1.0.8",
     "Url": "TMNFLauncher.exe",
-    "Sha256": "0EE5F08988A4637C10396FCBB3087443C4255D863978ABB8C22BBAC29F1864F1"
+    "Sha256": "4A1BBB385F8ABC74F4A56801E3802186B4BDAA94B19CE9056B7D6788C9DA0CD2"
   }
 }
