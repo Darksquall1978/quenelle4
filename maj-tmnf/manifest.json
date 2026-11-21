@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.3",
-  "BaseUrl": "http://78.116.195.253:81/status/tmnf/download/",
+  "Version": "1.0.4",
+  "BaseUrl": "https://raw.githubusercontent.com/Darksquall1978/quenelle4/main/maj-tmnf/",
   "Files": [
     {
       "Path": "FavTMNF.url",
@@ -24,7 +24,7 @@
     }
   ],
   "Launcher": {
-    "Version": "1.0.3",
+    "Version": "1.0.4",
     "Url": "TMNFLauncher.exe",
     "Sha256": "4972EA61F537C8F541AAEAD4E19FE2C9829D38CC5C88757B6DB40160990DB81E"
   }
